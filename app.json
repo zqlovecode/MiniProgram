@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/classon/classon",
+    "pages/cart/cart",
+    "pages/person/person",
+    "pages/flower/flower",
+    "pages/decrip/decrip"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "琉璃精舍",
+    "navigationBarTextStyle":"white"
+  },
+
+  "tabBar":{
+    "color": "#000000",
+    "selectedColor": "#b20602",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath": "images/per01.png",
+        "selectedIconPath": "images/pered01.png"
+      },
+      {
+        "pagePath":"pages/classon/classon",
+        "text":"分类",
+        "iconPath": "images/per02.png",
+        "selectedIconPath": "images/pered02.png"
+      },
+      {
+        "pagePath":"pages/cart/cart",
+        "text":"购物车",
+        "iconPath": "images/per03.png",
+        "selectedIconPath": "images/pered03.png"
+      },
+      {
+        "pagePath":"pages/person/person",
+        "text":"个人中心",
+        "iconPath": "images/per04.png",
+        "selectedIconPath": "images/pered04.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

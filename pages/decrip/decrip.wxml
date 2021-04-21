@@ -1,0 +1,27 @@
+      <view class="banner">
+          <swiper 
+          indicator-dots indicator-color="rgba(255,255,255,.3)" 
+          indicator-active-color="#ffffff"  
+          circular interval="3000"
+          >
+            <swiper-item wx:for="{{getdata}}" wx:key="index"><image src="{{item.picurl}}"></image></swiper-item>
+          </swiper>
+      </view>
+
+      <view class="price">￥{{getprice}}</view>
+      <view class="words">{{getname}}</view>
+
+
+  
+  <view class="botbtn">
+      <view class="tool_item home">
+        <view><image src="/images/per01.png"></image></view>
+        <view>首页</view>
+      </view>
+      <view class="tool_item cart">
+        <view><image src="/images/per03.png"></image></view>
+        <view>购物车</view>
+      </view>
+      <view class="tool_item addcart">加入购物车</view>
+      <view class="tool_item buy">立即购买</view>
+  </view>

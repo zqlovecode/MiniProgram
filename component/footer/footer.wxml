@@ -1,0 +1,4 @@
+<view class="footer">
+    <image mode="heightFix" src="/images/logo.png"></image>
+    <view class="text">- 共赏琉璃之美 - </view>
+</view>

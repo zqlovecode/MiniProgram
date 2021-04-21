@@ -1,0 +1,210 @@
+
+<view class="cartBox container">
+  <view class="cartItem">
+    <view class="content">
+        <view class="leftselect">
+          <checkbox color="#b20602"/>
+        </view>
+
+
+         <view class="rightcon">
+            <view class="picCon">
+                <image class="pic" src="/images/cc.png"></image>
+            </view>
+
+            <view class="desTitle">
+                  <view class="title">这是标题这是标题这是标题这这是标题这是标题这</view>
+                  <view class="pbtn">
+                    <view class="price"><text>￥</text>456</view>
+                    <view class="btn">
+                        <view class="inc">-</view>
+                        <view class="num">1</view>
+                        <view class="dec">+</view>
+                    </view>
+                  </view>
+              </view>
+          </view>
+    </view>
+  </view>
+
+  <view class="cartItem">
+    <view class="content">
+        <view class="leftselect">
+          <checkbox color="#b20602"/>
+        </view>
+
+
+         <view class="rightcon">
+            <view class="picCon">
+                <image class="pic" src="/images/cc.png"></image>
+            </view>
+
+            <view class="desTitle">
+                  <view class="title">这是标题这是标题这是标题这这是标题这是标题这</view>
+                  <view class="pbtn">
+                    <view class="price"><text>￥</text>456</view>
+                    <view class="btn">
+                        <view class="inc">-</view>
+                        <view class="num">1</view>
+                        <view class="dec">+</view>
+                    </view>
+                  </view>
+              </view>
+          </view>
+    </view>
+  </view>
+
+  <view class="cartItem">
+    <view class="content">
+        <view class="leftselect">
+          <checkbox color="#b20602"/>
+        </view>
+
+
+         <view class="rightcon">
+            <view class="picCon">
+                <image class="pic" src="/images/cc.png"></image>
+            </view>
+
+            <view class="desTitle">
+                  <view class="title">这是标题这是标题这是标题这这是标题这是标题这</view>
+                  <view class="pbtn">
+                    <view class="price"><text>￥</text>456</view>
+                    <view class="btn">
+                        <view class="inc">-</view>
+                        <view class="num">1</view>
+                        <view class="dec">+</view>
+                    </view>
+                  </view>
+              </view>
+          </view>
+    </view>
+  </view>
+
+  <view class="cartItem">
+    <view class="content">
+        <view class="leftselect">
+          <checkbox color="#b20602"/>
+        </view>
+
+
+         <view class="rightcon">
+            <view class="picCon">
+                <image class="pic" src="/images/cc.png"></image>
+            </view>
+
+            <view class="desTitle">
+                  <view class="title">这是标题这是标题这是标题这这是标题这是标题这</view>
+                  <view class="pbtn">
+                    <view class="price"><text>￥</text>456</view>
+                    <view class="btn">
+                        <view class="inc">-</view>
+                        <view class="num">1</view>
+                        <view class="dec">+</view>
+                    </view>
+                  </view>
+              </view>
+          </view>
+    </view>
+  </view>
+
+  <view class="cartItem">
+    <view class="content">
+        <view class="leftselect">
+          <checkbox color="#b20602"/>
+        </view>
+
+
+         <view class="rightcon">
+            <view class="picCon">
+                <image class="pic" src="/images/cc.png"></image>
+            </view>
+
+            <view class="desTitle">
+                  <view class="title">这是标题这是标题这是标题这这是标题这是标题这</view>
+                  <view class="pbtn">
+                    <view class="price"><text>￥</text>456</view>
+                    <view class="btn">
+                        <view class="inc">-</view>
+                        <view class="num">1</view>
+                        <view class="dec">+</view>
+                    </view>
+                  </view>
+              </view>
+          </view>
+    </view>
+  </view>
+
+  <view class="cartItem">
+    <view class="content">
+        <view class="leftselect">
+          <checkbox color="#b20602"/>
+        </view>
+
+
+         <view class="rightcon">
+            <view class="picCon">
+                <image class="pic" src="/images/cc.png"></image>
+            </view>
+
+            <view class="desTitle">
+                  <view class="title">这是标题这是标题这是标题这这是标题这是标题这</view>
+                  <view class="pbtn">
+                    <view class="price"><text>￥</text>456</view>
+                    <view class="btn">
+                        <view class="inc">-</view>
+                        <view class="num">1</view>
+                        <view class="dec">+</view>
+                    </view>
+                  </view>
+              </view>
+          </view>
+    </view>
+  </view>
+
+  <view class="cartItem">
+    <view class="content">
+        <view class="leftselect">
+          <checkbox color="#b20602"/>
+        </view>
+
+
+         <view class="rightcon">
+            <view class="picCon">
+                <image class="pic" src="/images/cc.png"></image>
+            </view>
+
+            <view class="desTitle">
+                  <view class="title">这是标题这是标题这是标题这这是标题这是标题这</view>
+                  <view class="pbtn">
+                    <view class="price"><text>￥</text>456</view>
+                    <view class="btn">
+                        <view class="inc">-</view>
+                        <view class="num">1</view>
+                        <view class="dec">+</view>
+                    </view>
+                  </view>
+              </view>
+          </view>
+    </view>
+  </view>
+
+</view>
+
+
+
+
+
+<view class="ftBox container">
+  <view class="btnCon">
+    <view class="ltbtn">
+      <view class="ltbtnCon">
+        <checkbox color="#b20602"/>
+        <text class="totChe">全选</text>
+        <text class="total">总价￥456</text>
+      </view>
+    </view>
+    <view class="rgbtn">结算(1)</view>
+  </view>
+</view>
+

@@ -1,0 +1,48 @@
+
+
+<hdView></hdView>
+
+<scroll-view scroll-x>
+<view class='tab'>
+  
+    <view class='tab_list {{item.id==id?"checked":""}}' wx:for='{{list}}' wx:key='index' data-id='{{item.id}}' bindtap='tabClick' >
+      <view class="title">{{item.title}}</view>
+      <view class='line {{item.id==id?"lineshow":""}}' ></view>
+    </view>
+    
+</view>
+</scroll-view>
+
+<view class="works">
+  <view class="container">
+    <view class="wkMain">
+      <!-- <block wx:for="{{list}}" wx:key='index'> -->
+          <navigator class="box" wx:for="{{itemchild}}" wx:key="index1" wx:for-item='item1' wx:for-index="index1" url='/pages/decrip/decrip?cid={{item1.gd_id}}'>
+            <image mode="widthFix" src="{{item1.Myimgurl}}"></image>
+            <view class="des">
+              <view class="proName">{{item1.proname}}</view>
+              <view class="price"><text>￥</text>{{item1.proprice}}</view>
+              <view class="btn">+</view>
+            </view>
+          </navigator>
+        <!-- </block> -->
+          
+
+         
+
+        
+
+         
+
+         
+
+          
+
+         
+
+        
+        </view>
+      </view>
+  </view>
+
+  <ftView></ftView>

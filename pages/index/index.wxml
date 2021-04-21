@@ -1,0 +1,251 @@
+<!-- <view class="header">
+  <view class="container selfstyle">
+    <navigator open-data="switchTab" url="/pages/index/index" class="logo">
+      <image mode="heightFix" src="/images/logo.png"></image>
+    </navigator>
+
+    <view class="kefu">
+      <button class="btn" open-type="contact"></button>
+      <image  mode="heightFix" src="/images/message.png"></image>
+    </view>
+  </view>
+</view> -->
+
+<HdView/>
+
+<view class="banner">
+    <swiper indicator-dots indicator-color="rgba(255,255,255,.3)" indicator-active-color="#ffffff" autoplay circular interval="3000">
+      <swiper-item><image src="/images/a1.png"></image></swiper-item>
+      <swiper-item><image src="/images/a2.png"></image></swiper-item>
+      <swiper-item><image src="/images/a3.png"></image></swiper-item>
+    </swiper>
+  </view>
+
+<scroll-view class="major" scroll-x>
+  <!-- <view class="majorCon"> -->
+    <navigator url="" class="box">
+      <image class="pic" src="/images/b1.png"></image>
+      <view class="txt">茶器</view>
+    </navigator>
+    <navigator url="" class="box">
+      <image class="pic" src="/images/b2.png"></image>
+      <view class="txt">花器</view>
+    </navigator>
+    <navigator url="" class="box">
+      <image class="pic" src="/images/b3.png"></image>
+      <view class="txt">香器</view>
+    </navigator>
+    <navigator url="" class="box">
+      <image class="pic" src="/images/b4.png"></image>
+      <view class="txt">禅空间</view>
+    </navigator>
+    <navigator url="" class="box">
+      <image class="pic" src="/images/b5.png"></image>
+      <view class="txt">酒具</view>
+    </navigator>
+    <navigator url="" class="box">
+      <image class="pic" src="/images/b6.png"></image>
+      <view class="txt">礼器</view>
+    </navigator>
+  <!-- </view> -->
+</scroll-view>
+
+
+<view class="works">
+  <view class="container">
+    <MdView myTitle="春茶套装" myUrl="/pages/classon/classon"/>     <!--调用组件 -->
+
+
+    <view class="wkMain">
+      <navigator class="box">
+        <image mode="widthFix" src="/images/c1.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+      <navigator class="box">
+        <image mode="widthFix" src="/images/c2.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+      <navigator class="box">
+        <image mode="widthFix" src="/images/c3.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+      <navigator class="box">
+        <image mode="widthFix" src="/images/c4.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+      <navigator class="box">
+        <image mode="widthFix" src="/images/c5.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+      <navigator class="box">
+        <image mode="widthFix" src="/images/c6.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+      <navigator class="box">
+        <image mode="widthFix" src="/images/c7.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+      <navigator class="box">
+        <image mode="widthFix" src="/images/c8.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+<!-- 香器 -->
+<view class="works reTop">
+  <view class="container">
+    <MdView myTitle="爆款香器" myUrl="/pages/classon/classon"/>
+
+    <view class="wkMain">
+      <navigator class="box wh">
+        <image mode="widthFix" src="/images/d1.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+      <navigator class="box wh">
+        <image mode="widthFix" src="/images/d2.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+      <navigator class="box wh">
+        <image mode="widthFix" src="/images/d3.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+      <navigator class="box wh">
+        <image mode="widthFix" src="/images/d4.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+      <navigator class="box wh">
+        <image mode="widthFix" src="/images/d5.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+      <navigator class="box wh">
+        <image mode="widthFix" src="/images/d6.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+    </view>
+  </view>
+</view>
+
+<!-- 热销 -->
+
+<view class="works reTop">
+  <view class="container">
+    <MdView myTitle="热销专区" myUrl="/pages/classon/classon"/>
+
+    <view class="wkMain">
+      <navigator class="box wh">
+        <image mode="widthFix" src="/images/e1.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+      <navigator class="box wh">
+        <image mode="widthFix" src="/images/e2.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+      <navigator class="box wh">
+        <image mode="widthFix" src="/images/e3.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+      <navigator class="box wh">
+        <image mode="widthFix" src="/images/e4.png"></image>
+        <view class="des">
+          <view class="proName">一卷清荷套装</view>
+          <view class="price"><text>￥</text>1620</view>
+          <view class="btn">+</view>
+        </view>
+      </navigator>
+
+    </view>
+  </view>
+</view>
+
+<!-- <view class="footer">
+    <image mode="heightFix" src="/images/logo.png"></image>
+    <view class="text">- 共赏琉璃之美 - </view>
+</view> -->
+
+<FdView/>

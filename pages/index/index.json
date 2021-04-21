@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "MdView":"/component/mokuai/mokuai",
+    "HdView":"/component/header/header",
+    "FdView":"/component/footer/footer"
+  }
+}

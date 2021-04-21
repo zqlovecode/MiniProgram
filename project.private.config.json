@@ -1,0 +1,53 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "classon",
+          "pathName": "pages/classon/classon",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "practice",
+          "pathName": "pages/practice/practice",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "cart",
+          "pathName": "pages/cart/cart",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "decrip",
+          "pathName": "pages/decrip/decrip",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "person",
+          "pathName": "pages/person/person",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

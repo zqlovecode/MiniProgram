@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "hdView":"/component/header/header",
+    "ftView":"/component/footer/footer"
+  },
+  "navigationBarTitleText": "商品分类"
+}

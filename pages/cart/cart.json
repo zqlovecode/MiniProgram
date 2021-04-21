@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "CtView":"/component/header/header"
+  },
+  "navigationBarTitleText": "购物车"
+
+}
